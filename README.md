@@ -29,7 +29,7 @@ A production-grade, dark & minimal portfolio built with the MERN stack.
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/akram/portfolio.git
+git clone https://github.com/AkramMayed0/akram-portfolio.git
 cd akram-portfolio
 
 # Install all dependencies

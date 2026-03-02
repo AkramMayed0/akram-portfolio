@@ -72,7 +72,7 @@ export default function Contact() {
 
             <div className="space-y-4">
               {[
-                { label: 'Email', value: 'akram@dev.io', icon: '✉' },
+                { label: 'Email', value: 'akramsamir9701@gmail.com', icon: '✉' },
                 { label: 'Location', value: 'Available Worldwide / Remote', icon: '◎' },
                 { label: 'Status', value: 'Open to Opportunities', icon: '●', accent: true },
               ].map(item => (
@@ -93,9 +93,8 @@ export default function Contact() {
             {/* Social links */}
             <div className="flex gap-4">
               {[
-                { name: 'GitHub', url: 'https://github.com' },
-                { name: 'LinkedIn', url: 'https://linkedin.com' },
-                { name: 'Twitter', url: 'https://twitter.com' },
+                { name: 'GitHub', url: 'https://github.com/AkramMayed0' },
+                { name: 'LinkedIn', url: 'https://www.linkedin.com/in/akram-mayed-763845369/' },
               ].map(s => (
                 <a
                   key={s.name}

@@ -1,6 +1,7 @@
 {
   "name": "akram-portfolio-server",
   "version": "1.0.0",
+  "type": "module",
   "description": "Backend API for Akram's portfolio",
   "main": "index.js",
   "scripts": {

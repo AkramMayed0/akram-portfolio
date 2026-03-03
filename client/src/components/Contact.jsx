@@ -19,7 +19,7 @@ export default function Contact() {
     }
     setLoading(true)
     try {
-      await axios.post('https://akram-portfolio-api.onrender.com/api/contact', form)
+      await axios.post('https://akram-portfolio-xon0.onrender.com/api/contact', form)
       toast.success('Message sent! I\'ll get back to you soon.')
       setForm({ name: '', email: '', subject: '', message: '' })
     } catch {

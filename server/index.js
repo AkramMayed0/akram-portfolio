@@ -17,6 +17,7 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'https://akrammayed0.github.io',
+    'https://akram-portfolio-five.vercel.app',
   ],
   credentials: true,
 }))

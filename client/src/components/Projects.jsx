@@ -15,6 +15,30 @@ const projects = [
     featured: true,
     type: 'mobile',
   },
+  {
+  id: 2,
+  title: 'Nexovia CRM',
+  subtitle: 'MERN Stack',
+  description: 'Full-stack CRM platform built with the MERN stack. Manage clients, track deals, and streamline your sales pipeline with a clean, responsive interface.',
+  tech: ['MongoDB', 'Express', 'React', 'Node.js'],
+  github: 'https://github.com/AkramMayed0/crm-project',
+  live: 'https://crm-project-eta-beige.vercel.app/',
+  color: '#f5a623',
+  featured: true,
+  type: 'web',
+  },
+  {
+  id: 3,
+  title: 'Kira Shop',
+  subtitle: 'MERN Stack × Vite',
+  description: 'Arabic fashion e-commerce platform — "فن ترتديه" (Art you wear). Built with the MERN stack and Vite for a fast, modern shopping experience with a clean, elegant UI.',
+  tech: ['MongoDB', 'Express', 'React', 'Node.js', 'Vite'],
+  github: 'https://github.com/AkramMayed0/kira-shop',
+  live: 'https://kira-shop.vercel.app/',
+  color: '#e8c4a0',
+  featured: true,
+  type: 'web',
+  }
 ]
 
 function ProjectCard({ project, i, inView }) {

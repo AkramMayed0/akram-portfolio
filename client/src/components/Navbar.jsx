@@ -54,7 +54,7 @@ export default function Navbar() {
             </motion.button>
           ))}
           <motion.a
-            href="/akram-portfolio/resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0 }}
